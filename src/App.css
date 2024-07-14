@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app__main {
+  display: flex;
+  flex: 1;
+  justify-content: space-between; /* Adjust as needed */
+  padding: 20px; /* Adjust as needed */
+}
+
+.header, .footer {
+  background-color: #003366; /* Blue scale */
+  color: white;
+  padding: 10px 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+}
+
+.body-component1, .body-component2 {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: #e6f2ff; /* Light blue background */
+  border: 1px solid #003366; /* Blue border */
+}

@@ -1,0 +1,13 @@
+.counter {
+  margin-left: auto;
+}
+
+.counter__text {
+  font-size: 14px;
+  color: RED;
+}
+
+.counter__count {
+  font-size: 14px;
+  color: RED;
+}

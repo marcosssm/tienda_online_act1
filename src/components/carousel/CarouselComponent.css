@@ -1,0 +1,20 @@
+/* Carousel.css */
+
+.carousel {
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+.carousel__image {
+  width: 80%;
+  height: auto;
+}
+
+.texto-normal {
+  color: GREEN;
+}
+
+.texto-tachado {
+  text-decoration: line-through;
+  color: RED;
+}

@@ -1,0 +1,36 @@
+.tabla-container {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f0f7ff; /* Color de fondo en escala de azules */
+  border: 1px solid #d3e2f2; /* Borde de la tabla */
+}
+
+.tabla th,
+.tabla td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #d3e2f2; /* Borde de las celdas */
+}
+
+.tabla th {
+  background-color: #cfe2f3; /* Color de fondo del encabezado */
+  color: #0366d6; /* Color del texto del encabezado */
+}
+
+.tabla td {
+  background-color: #ffffff; /* Color de fondo de las celdas */
+  color: #333333; /* Color del texto de las celdas */
+}
+
+.tabla tr:nth-child(even) {
+  background-color: #edf5ff; /* Color de fondo de filas pares */
+}
+
+.tabla tr:hover {
+  background-color: #cce4ff; /* Color de fondo al pasar el cursor */
+}
